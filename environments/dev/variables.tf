@@ -36,7 +36,7 @@ variable "node_count" {
 
 variable "vm_size" {
   type    = string
-  default = "Standard_D2_v5"
+  default = "Standard_D2_v4"
 }
 
 variable "tags" {
