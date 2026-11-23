@@ -8,6 +8,7 @@ variable "kubeconfig_path" {
 variable "github_repository_url" {
   description = "HTTPS URL of the GitOps repository"
   type        = string
+  default     = "https://github.com/gaikwadritesh2804/ecommerce-gitops.git"
 }
 
 variable "github_branch" {
